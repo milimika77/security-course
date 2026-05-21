@@ -10,8 +10,6 @@
 Что означает флаг --armor:
 Флаг --armor переводит бинарные данные GPG в текстовый ASCII-формат Base64. Такой формат удобен для копирования, отправки и добавления на GitHub.
 
-![GPG Keys](screens/gpg-keys.png)
-
 ---
 
 ## 2. Шифрование
@@ -29,8 +27,6 @@ GPG не сможет получить доступ к приватному кл
 
 Почему нельзя расшифровать файл зашифрованный для другого пользователя:
 Файл шифруется публичным ключом конкретного пользователя. Расшифровать его можно только соответствующим приватным ключом.
-
-![Encrypted File](screens/encrypted-file.png)
 
 ---
 
@@ -53,15 +49,9 @@ gpg: BAD signature from "milimika <dianazakh2006@gmail.com>"
 - целостность файла
 - отсутствие изменений после подписания
 
-![Good Signature](screens/good-signature.png)
-
-![Bad Signature](screens/bad-signature.png)
-
 ---
 
 ## 4. Подпись коммитов
-
-![Verified Commit](screens/verified-commit.png)
 
 Ссылка на коммит:
 https://github.com/milimika77/security-course/commit/f5d4da55980cb586ef082167bae781580ab5bd7a
@@ -72,8 +62,6 @@ gpg: Good signature from "milimika <dianazakh2006@gmail.com>"
 
 Зачем проверять подпись локально если GitHub уже показывает Verified:
 Локальная проверка позволяет убедиться в корректности подписи независимо от GitHub и проверить подлинность коммита напрямую через GPG.
-
-![Git Log Signature](screens/git-log-signature.png)
 
 ---
 
@@ -92,10 +80,6 @@ gpg: Good signature from "milimika <dianazakh2006@gmail.com>"
 
 Сценарий когда нужно затирать свободное место:
 Перед продажей ноутбука, утилизацией диска или удалением конфиденциальной информации в корпоративной среде.
-
-![Shred](screens/shred.png)
-
-![Debugfs](screens/debugfs.png)
 
 ---
 
