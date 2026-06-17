@@ -134,8 +134,6 @@ aquasec/trivy:latest image --scanners license python:3.11-slim
 
 # 5. CI-проверка
 
-https://github.com/milimika77/security-course/actions
-
 В репозитории были настроены два workflow GitHub Actions:
 
 1. License Check
