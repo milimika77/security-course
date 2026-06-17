@@ -1,5 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2024 Мили Мика <dianazakh2006@gmail.com>
+SPDX-FileCopyrightText: 2026 milimika77 <dianazakh2006@gmail.com>
 
 SPDX-License-Identifier: MIT
 -->
